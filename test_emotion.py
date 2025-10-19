@@ -1,5 +1,7 @@
-from emotion_detection import emotion_detector
+from EmotionDetection import emotion_detector
 
-text = "I love my life"
-result = emotion_detector(text)
-print(result)
+if __name__ == "__main__":
+    sample_text = "I hate working long hours."
+    result = emotion_detector(sample_text)
+    print("Emotion detection result:")
+    print(result)
